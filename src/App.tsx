@@ -37,7 +37,16 @@ function App() {
       setLoading(false)
   }
 
-  const nextQuestion = async () => {    
+  const nextQuestion = async () => {         
+    const nextQuestion = number + 1;
+
+    if(nextQuestion === TOTAL_QUESTIONS) {
+      setGameOver(true);
+    }
+
+    else {
+      setNumber(nextQuestion)
+    }    
     
   }
 
@@ -76,7 +85,7 @@ function App() {
 
       { !gameOver ? (        
         <p className="score">
-          Score:
+          Score: {score}
         </p> ) : null 
       }
 
