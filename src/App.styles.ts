@@ -1,5 +1,7 @@
 import styled, { createGlobalStyle } from 'styled-components';
 
+import BGImage from './images/photo-1.jpg' 
+
 export const GlobalStyle = createGlobalStyle`
 
   html {
@@ -7,11 +9,12 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-color: navy;
+    background-image: url(${BGImage});
+    background-size: cover;
     margin: 0;
     padding: 0 20px;
-    display flex;
-    justify-content: center
+    display: flex;
+    justify-content: center;
   }
 
   * {
@@ -37,9 +40,9 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   h1 {
-    font-family: Fascinate Inline;
+    font-family: Fascinate Inline, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-image: linear-gradient(180deg, #fff, #87f1ff);
-    font-weight: 400;
+    font-weight: 400;    
     background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;
