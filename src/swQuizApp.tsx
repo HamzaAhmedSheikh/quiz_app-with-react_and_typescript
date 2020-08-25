@@ -1,5 +1,3 @@
-import { error } from "console";
-
 export default function swQuizApp () {
     
     if('serviceWorker' in navigator) {
