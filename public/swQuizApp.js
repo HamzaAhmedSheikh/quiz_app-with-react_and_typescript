@@ -16,7 +16,7 @@
     '/static/media/photo-1.c11f97a3.jpg',    
     '/favicon.ico',
     '/',
-    'max-age=31536000' ,
+    '/0f31201287e0e3f7e87c86ed26f2a492', 
     'https://opentdb.com/api.php?amount=10&category=21&difficulty=easy&type=multiple'
 
    ]
