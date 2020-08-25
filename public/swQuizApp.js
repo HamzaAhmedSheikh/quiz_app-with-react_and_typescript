@@ -13,12 +13,10 @@
     '/manifest.json',
     '/logo192.png',
     "index.html",    
-    '/static/media/photo-1.c11f97a3.jpg',
-    // '/static/media/generalKnowledge.739e131a.jpg',
-    // '/static/media/history.0cca963b.jpg',
+    '/static/media/photo-1.c11f97a3.jpg',    
     '/favicon.ico',
     '/',
-
+    'http://project-6_quiz_app.surge.sh/' ,
     'https://opentdb.com/api.php?amount=10&category=21&difficulty=easy&type=multiple'
 
    ]
