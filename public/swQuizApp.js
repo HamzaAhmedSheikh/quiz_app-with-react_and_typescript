@@ -16,7 +16,7 @@
     '/static/media/photo-1.c11f97a3.jpg',    
     '/favicon.ico',
     '/',
-    'http://project-6_quiz_app.surge.sh/' ,
+    'max-age=31536000' ,
     'https://opentdb.com/api.php?amount=10&category=21&difficulty=easy&type=multiple'
 
    ]
