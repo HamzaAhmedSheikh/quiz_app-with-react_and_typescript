@@ -16,7 +16,7 @@
     '/static/media/photo-1.c11f97a3.jpg',    
     '/favicon.ico',
     '/',
-    '/d57d50cc7f8dd879f3229e74b05453e9-s', 
+    
     'https://opentdb.com/api.php?amount=10&category=21&difficulty=easy&type=multiple'
 
    ]
