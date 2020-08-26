@@ -5,7 +5,7 @@ export default function swQuizApp () {
         
         window.addEventListener('load', () => {
            navigator.serviceWorker.register(swDev).then((registration) => {
-               console.log('ServiceWorker registration successful', registration);
+               console.log('ServiceWorker registration successful with scope', registration);
 
             }).catch((err) => {
                 console.log('ServiceWorker registration failed: ', err)
