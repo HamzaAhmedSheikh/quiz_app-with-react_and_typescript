@@ -1,7 +1,7 @@
    
 
    
-   var CACHE_NAME = 'quiz-app'
+   var cacheName = 'quiz-app'
 
    var urlsToCache = [
     '/static/js/bundle.js',
@@ -66,7 +66,7 @@
             });
         })
         .catch((error) => {
-          console.log("error in loading pages");
+          console.log("error in loading pages", error);
         })
     );
   });
