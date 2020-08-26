@@ -3,7 +3,7 @@
    
    var cacheName = 'quiz-app'
 
-   var urlsToCache = [
+   var cacheAssets = [
     '/static/js/bundle.js',
     '/static/js/0.chunk.js',
     '/static/css/2.11829350.chunk.css',
