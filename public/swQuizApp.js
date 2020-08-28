@@ -9,6 +9,7 @@
     '/static/css/main.8ee7fde6.chunk.css',
     '/static/js/2.733aefd4.chunk.js',
     '/static/js/main.eb83e8a2.chunk.js',
+    '/static/js/main.034afd45.chunk.js',
     '/manifest.json',
     '/logo192.png',
     "index.html",    
