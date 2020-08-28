@@ -1,4 +1,4 @@
-  var CACHE_NAME = 'quiz-app'
+  var CACHE_NAME = 'quiz-app' // cache name
 
    var urlsToCache = [
     '/static/js/bundle.js',
