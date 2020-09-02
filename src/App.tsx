@@ -5,6 +5,8 @@ import { fetchQuestions, Difficulty, QuestionState } from './API'
 
 import { GlobalStyle, Wrapper } from './App.styles';
 
+import  initNotification from './components/Service'
+
 
 const TOTAL_QUESTIONS = 10
 
@@ -78,9 +80,11 @@ function App() {
 
   return (
     <>
-     <GlobalStyle />
+     <GlobalStyle />     
      <Wrapper>
       <h1> Quiz App </h1> 
+
+      <button onClick={initNotification}> Get Notification </button>
 
       { gameOver || userAnswers.length === TOTAL_QUESTIONS ? (        
         <button className="start" onClick={startQuiz}>
